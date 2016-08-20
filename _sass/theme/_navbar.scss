@@ -1,0 +1,16 @@
+#navbar-main {
+	background: transparent;
+	border-bottom-color: $gray-lighter;;
+	margin-bottom: 0;
+
+	a {
+		text-decoration: none !important;
+	}
+
+	.navbar-brand {
+		padding-top: 1.25em;
+		color: $gray-dark;
+	}
+
+
+}

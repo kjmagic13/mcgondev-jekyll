@@ -1,0 +1,16 @@
+.jumbotron {
+	background-position: center;
+	background-size: cover;
+	padding: 75px 0;
+
+	color: #fff;
+	text-shadow: -1px 0px 20px #000;
+}
+
+#jumbo-home {
+	background-image: url($jumbo-home-bg);
+	padding: 100px 0;
+
+	h1 > small { color: #fff; }
+
+}

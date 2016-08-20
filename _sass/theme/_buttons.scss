@@ -1,0 +1,3 @@
+.btn-default:hover {
+  @include button-variant(#fff, $gray-darker, $gray-darker);
+}

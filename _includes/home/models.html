@@ -1,0 +1,30 @@
+<aside class="row">
+
+	{% for post in site.posts %}
+	<div class="col-sm-4">
+		<div class="home-model">
+
+			<h4>{{ post.title }}</h4>
+
+			{% if post.image %}
+			<a href="{{ post.url | prepend: site.baseurl }}" class="embed-responsive embed-responsive-16by9 thumbnail">
+				<img src="{{ post.image | prepend: '/images/' | prepend: site.baseurl }}" alt="" class="center-v-block">
+			</a>
+			{% endif %}
+
+			<div class="caption">
+				<p>
+					{{ post.excerpt }}
+				</p>
+				<p>
+					<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default btn-sm">
+						Learn More
+					</a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+	{% endfor %}
+
+</aside>
