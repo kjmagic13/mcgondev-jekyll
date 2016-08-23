@@ -8,8 +8,8 @@ module Development
 	class Theme
 		def initialize(site)
 			@sass_dir = "#{site.in_source_dir}/_sass"
-			@theme_dir = "#{@sass_dir}/theme"
 			@theme_file = "#{@sass_dir}/_theme.scss"
+			@theme_dir = "#{@sass_dir}/theme"
 			@files = Dir["#{@theme_dir}/**/*.scss"]
 
 			edit_file

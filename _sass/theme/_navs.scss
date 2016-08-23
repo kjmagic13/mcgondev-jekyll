@@ -1,0 +1,36 @@
+.nav-tabs {
+	margin-bottom: $grid-gutter-width / 2;
+	font-style: italic;
+
+	> li {
+		@media (max-width: $screen-xs-max) {
+
+			width: 100%;
+
+			&.active {
+				> a, > a:hover {
+					border: solid 1px $gray-lighter !important;
+				}
+			}
+
+		}
+	}
+}
+
+.nav-tabs-right {
+	> li {
+		float: right;
+	}
+}
+
+// .carousel-indicators.override {
+// 	position: relative;
+// 	width: inherit;
+// 	bottom: inherit;
+// 	left: inherit;
+// 	z-index: inherit;
+// 	margin-left: inherit;
+// 	padding-left: inherit;
+// 	list-style: inherit;
+// 	text-align: inherit;
+// }

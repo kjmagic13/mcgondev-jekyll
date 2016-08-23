@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: model
 image: home-model-1.jpg
 title:  "Thumbnail Title"
+slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

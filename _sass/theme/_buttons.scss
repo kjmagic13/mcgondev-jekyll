@@ -1,3 +1,6 @@
-.btn-default:hover {
-  @include button-variant(#fff, $gray-darker, $gray-darker);
+.btn-dark {
+	@include button-variant($gray-darker, transparent, $gray-darker);
+	&:hover {
+		@include button-variant(#fff, $gray-darker, $gray-darker);
+	}
 }

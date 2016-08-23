@@ -1,0 +1,108 @@
+---
+layout: page
+---
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs nav-tabs-right" role="tablist">
+	<li role="presentation" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Details</a></li>
+	<li role="presentation"><a href="#amenities" aria-controls="amenities" role="tab" data-toggle="tab">Amenities</a></li>
+	<li role="presentation"><a href="#map-floor-plans" aria-controls="map-floor-plans" role="tab" data-toggle="tab">Map &amp; Floor Plans</a></li>
+	<li class="visible-xs-block" role="presentation"><a href="#model-content">Article</a></li>
+</ul>
+
+<section class="row">
+
+	<aside class="col-sm-5 col-sm-push-7">
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="details">
+				<div class="embed-responsive embed-responsive-16by9 thumbnail">
+					<img src="{{ page.image | prepend: '/images/' | prepend: site.baseurl }}" alt="" class="center-v-block">
+				</div>
+
+				<dl>
+					<dt>Bedrooms</dt>
+					<dd>Description</dd>
+					<dt>Bathrooms</dt>
+					<dd>Description</dd>
+					<dt>Square Footage</dt>
+					<dd>Description</dd>
+					<dt>Label</dt>
+					<dd>Description</dd>
+					<dt>Label</dt>
+					<dd>Description</dd>
+				</dl>
+			</div>
+
+			<div role="tabpanel" class="tab-pane" id="map-floor-plans">
+				<div class="embed-responsive embed-responsive-16by9 thumbnail">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23520.65553015244!2d-75.53866953721571!3d42.53231406722755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dbb825dce09573%3A0x13a211a93d4b8427!2sNorwich%2C+NY+13815!5e0!3m2!1sen!2sus!4v1471756489672" allowfullscreen></iframe>
+				</div>
+
+				<div class="embed-responsive embed-responsive-16by9 thumbnail">
+					plans
+				</div>
+			</div>
+
+			<div role="tabpanel" class="tab-pane" id="amenities">
+				<ul class="list-unstyled list-col-2-md">
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+					<li>amet</li>
+					<li>consectetur</li>
+					<li>adipisicing</li>
+					<li>elit</li>
+					<li>sed</li>
+					<li>do</li>
+					<li>eiusmod</li>
+				</ul>
+			</div>
+
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<p class="">
+					<a href="#" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Apply Today!</a>
+				</p>
+			</div>
+		</div>
+
+	</aside>
+
+	<main id="model-content" class="col-sm-7 col-sm-pull-5">
+		{{ content }}
+
+		<div class="row visible-xs-block">
+			<div class="col-xs-8 col-xs-offset-2">
+				<p class="">
+					<a href="#" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Apply Today!</a>
+				</p>
+			</div>
+		</div>
+
+	</main>
+
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

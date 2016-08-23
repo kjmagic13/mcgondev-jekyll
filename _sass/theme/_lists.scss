@@ -1,0 +1,15 @@
+.list-col-2-md {
+
+	@media (min-width: $screen-md-min) {
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+	}
+
+	> li {
+		list-style-position: inside;
+		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+		page-break-inside: avoid; /* Firefox */
+		break-inside: avoid; /* IE 10+ */
+	}
+}

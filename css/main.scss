@@ -8,8 +8,4 @@
 
 @import "theme/_variables";
 @import "bootstrap";
-
-// @import "theme_assets"; // ????
-$jumbo-home-bg: "{{ '/images/jumbo-home.jpg' | prepend: site.baseurl }}";
-
 @import "theme";

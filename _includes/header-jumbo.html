@@ -1,0 +1,17 @@
+{% if page.image %}
+<header class="jumbotron" style="background-image: url({{ page.image | prepend: '/images/' | prepend: site.baseurl }})">
+	<div class="container">
+
+		<div class="text-center">
+			<h1>
+				{% if page.jumbo_text %}
+				{{ page.jumbo_text }}
+				{% else %}
+				{{ page.title }}
+				{% endif %}
+			</h1>
+		</div>
+
+	</div>
+</header>
+{% endif %}
