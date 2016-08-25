@@ -7,5 +7,9 @@ slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo
 ---
 
 <section>
-	{% include home/models.html %}
+	{% for post in site.properties | limit: 3 %}
+	<div class="col-sm-4">
+		{% include properties/property.html %}
+	</div>
+	{% endfor %}
 </section>

@@ -17,6 +17,10 @@ url: "http://McGonnigalDevelopment.com"
 # Build settings
 markdown: kramdown
 
+collections:
+   properties:
+      output: true
+
 exclude: [_sass/_theme.scss, _includes/archive]
 
 gems:

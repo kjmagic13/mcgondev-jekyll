@@ -1,0 +1,22 @@
+<article class="home-property">
+
+	<h4>{{ post.title }}</h4>
+
+	{% if post.image %}
+	<a href="{{ post.url | prepend: site.baseurl }}" class="embed-responsive embed-responsive-16by9 thumbnail">
+		<img src="{{ post.image | prepend: '/images/' | prepend: site.baseurl }}" alt="" class="center-v-block">
+	</a>
+	{% endif %}
+
+	<div class="caption">
+		<p>
+			{{ post.excerpt }}
+		</p>
+		<p>
+			<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-dark btn-sm">
+				Learn More
+			</a>
+		</p>
+	</div>
+
+</article>

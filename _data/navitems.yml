@@ -1,20 +1,15 @@
 - text: About
   href: /about/
-- text: Blog
-  href: /blog/
-- text: Contact Us
-  href: /#contact
+- text: Properties
+  href: /properties/
   dropdown: true
   subitems:
-   - text: Action
-     href: '/#subitem'
-   - text: Another Action
-     href: '/#subitem'
-   - text: Something else
-     href: '/#subitem'
-   - divider: true
-   - text: Separated Link
-     href: '/#subitem'
-   - divider: true
-   - text: One More Separated Link
-     href: '/#subitem'
+   # - divider: true
+   - text: Residential Properties
+     href: '/properties/residential'
+   - text: Commercial Properties
+     href: '/properties/commercial'
+# - text: Blog
+#   href: /blog/
+# - text: Contact Us
+#   href: /contact/

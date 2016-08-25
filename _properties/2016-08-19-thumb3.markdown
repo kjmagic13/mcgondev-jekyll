@@ -1,8 +1,10 @@
 ---
-layout: model
-image: home-model-1.jpg
+layout: property
+image: home-property-3.jpg
 title:  "Thumbnail Title"
 slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+{% include properties/show-body-test.md %}
