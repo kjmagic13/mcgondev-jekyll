@@ -2,8 +2,9 @@
 layout: properties/property
 image: home-property-2.jpg
 title:  "Thumb Title!"
-category: residential
 slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+category: residential
+amenities: [lorem, ipsum, dolor, sit, amet, consectetur, adipisicing, elit, sed, do, eiusmod]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

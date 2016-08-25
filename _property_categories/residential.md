@@ -1,8 +1,8 @@
 ---
 layout: properties/property_category
 title: Residential Properties
-category: residential
 permalink: /properties/residential/
+category: residential
 tab_text: Residential
 ---
 

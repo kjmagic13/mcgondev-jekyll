@@ -2,8 +2,9 @@
 layout: properties/property
 image: home-property-3.jpg
 title:  Thumbnail Title
-category: commercial
 slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+category: commercial
+amenities: [lorem, ipsum, dolor, sit, amet, consectetur, adipisicing, elit, sed, do, eiusmod]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

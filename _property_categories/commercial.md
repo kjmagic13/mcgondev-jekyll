@@ -1,8 +1,8 @@
 ---
 layout: properties/property_category
 title: Commercial Properties
-category: commercial
 permalink: /properties/commercial/
+category: commercial
 tab_text: Commercial
 ---
 

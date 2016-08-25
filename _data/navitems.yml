@@ -4,13 +4,13 @@
   href: /properties/
   dropdown: true
   subitems:
-   - text: Residential Properties
-     href: '/properties/residential/'
-   - text: Commercial Properties
-     href: '/properties/commercial/'
-   - divider: true
    - text: Browse All Properties
      href: '/properties/'
+   - divider: true
+   - text: Commercial Properties
+     href: '/properties/commercial/'
+   - text: Residential Properties
+     href: '/properties/residential/'
 # - text: Blog
 #   href: /blog/
 # - text: Contact Us
