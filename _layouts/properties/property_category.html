@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+<div class="row">
+	<div class="col-sm-6 col-sm-offset-3">
+		<ul class="nav nav-tabs nav-justified">
+			{% for post in site.property_categories reverse %}
+
+			{% assign active = nil %}
+			{% if page.url == post.url %}
+			{% assign active = 'active' %}
+			{% endif %}
+
+			<li role="presentation" class="{{active}}">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					{% if post.tab_text %}
+					{{ post.tab_text }}
+					{% else %}
+					{{ post.title }}
+					{% endif %}
+				</a>
+			</li>
+
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+{{ content }}
+
+{% if page.category %}
+{% assign properties = site.properties | where: "category", page.category %}
+{% else %}
+{% assign properties = site.properties %}
+{% endif %}
+
+{% for post in properties %}
+<div class="col-sm-4">
+	{% include properties/property.html %}
+</div>
+{% endfor %}

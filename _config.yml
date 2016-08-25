@@ -20,6 +20,8 @@ markdown: kramdown
 collections:
    properties:
       output: true
+   property_categories:
+      output: true
 
 exclude: [_sass/_theme.scss, _includes/archive]
 
