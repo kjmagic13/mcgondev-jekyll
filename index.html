@@ -6,9 +6,9 @@ jumbo_text: "realty <small>&amp;</small> rentals"
 slogan: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ---
 
-<section>
+<section class="row js-flickity flick-properties" data-flickity-options='{ "wrapAround": true, "watchCSS": true, "prevNextButtons": false }'>
 	{% for post in site.properties | limit: 3 %}
-	<div class="col-sm-4">
+	<div class="col-xs-12 col-sm-4">
 		{% include properties/property.html %}
 	</div>
 	{% endfor %}

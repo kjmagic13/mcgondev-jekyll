@@ -1,0 +1,28 @@
+@import "vendor/flickity.min.css";
+
+.flick-properties {
+	&:after {
+		content: 'flickity';
+		display: none;
+		@media (min-width: $screen-sm-min) { content: ''; }
+	}
+
+	.flickity-viewport {
+		margin-bottom: 10px;
+	}
+
+	.flickity-page-dots {
+		bottom: -10px;
+
+		// li.dot {
+		// 	background: none;
+		// 	border: 2px solid $brand-info;
+		// 	width: 15px;
+		// 	height: 15px;
+		// 	&.is-selected {
+		// 		background: $brand-info;
+		// 	}
+		// }
+	}
+
+}
